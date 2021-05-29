@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  padding: 1rem 1.5rem;
+
+
+  background-color: var(--primary-color);
+
+  display: flex;
+  flex-direction: row; /*Direção do alinhamento*/
+    /*Quando flex-direction; for colums os justify-content e align-items
+    eles invertem seus papeis */
+  justify-content: flex-start; /*Alinha na horizontal*/
+  align-items: center; /*Alinha da vertical*/
+}
+.header img {
+  width: 164px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}
+
+
+

@@ -10,6 +10,9 @@ import { HeaderComponent } from './layout/header/header.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HeaderComponent
   ]
 })
 export class SharedModule { }
